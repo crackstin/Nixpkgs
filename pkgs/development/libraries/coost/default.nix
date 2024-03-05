@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "idealvin";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-HbMenAL/UWsqQ1o7cMeWfwXkLh4GxIKV7iuZQD3hDA8=;
+    sha256 = "sha256-HbMenAL/UWsqQ1o7cMeWfwXkLh4GxIKV7iuZQD3hDA8=";
   };
 
   postPatch = ''
